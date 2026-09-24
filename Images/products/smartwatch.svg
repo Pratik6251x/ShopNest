@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="16" fill="#f0fdf4" />
+  <circle cx="120" cy="120" r="75" fill="#ffffff" opacity="0.8" />
+  <path d="M100,40 L140,40 L135,75 L105,75 Z M105,165 L135,165 L140,200 L100,200 Z M80,75 L160,75 A20,20 0 0,1 180,95 L180,145 A20,20 0 0,1 160,165 L80,165 A20,20 0 0,1 60,145 L60,95 A20,20 0 0,1 80,75 Z" fill="none" stroke="#16a34a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="120" y="222" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#16a34a" text-anchor="middle" letter-spacing="0.5">SMART WATCH</text>
+</svg>

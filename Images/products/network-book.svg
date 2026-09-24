@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="16" fill="#e0f2fe" />
+  <circle cx="120" cy="120" r="75" fill="#ffffff" opacity="0.8" />
+  <path d="M65,55 L160,55 A15,15 0 0,1 175,70 L175,185 L80,185 A15,15 0 0,1 65,170 Z M65,170 L175,170 M120,95 A10,10 0 1,0 120.1,95 M95,135 A10,10 0 1,0 95.1,135 M145,135 A10,10 0 1,0 145.1,135 M115,103 L100,127 M125,103 L140,127" fill="none" stroke="#0369a1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="120" y="222" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#0369a1" text-anchor="middle" letter-spacing="0.5">NETWORKS BOOK</text>
+</svg>

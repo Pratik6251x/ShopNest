@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="16" fill="#f0fdf4" />
+  <circle cx="120" cy="120" r="75" fill="#ffffff" opacity="0.8" />
+  <path d="M105,40 L135,40 L135,60 L105,60 Z M110,60 L130,60 L130,75 L110,75 Z M90,85 L150,85 A15,15 0 0,1 160,100 L155,190 A10,10 0 0,1 145,200 L95,200 A10,10 0 0,1 85,190 L80,100 A15,15 0 0,1 90,85 Z" fill="none" stroke="#059669" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="120" y="222" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#059669" text-anchor="middle" letter-spacing="0.5">BOTTLE</text>
+</svg>

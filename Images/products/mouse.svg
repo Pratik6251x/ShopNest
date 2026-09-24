@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="16" fill="#eff6ff" />
+  <circle cx="120" cy="120" r="75" fill="#ffffff" opacity="0.8" />
+  <path d="M85,60 A35,35 0 0,1 155,60 L155,140 A35,35 0 0,1 85,140 Z M120,60 L120,100 M115,80 A5,5 0 0,1 125,80" fill="none" stroke="#2563eb" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="120" y="222" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#2563eb" text-anchor="middle" letter-spacing="0.5">MOUSE</text>
+</svg>

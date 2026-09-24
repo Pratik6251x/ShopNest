@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="16" fill="#eef2ff" />
+  <circle cx="120" cy="120" r="75" fill="#ffffff" opacity="0.8" />
+  <path d="M60,110 A60,60 0 0,1 180,110 M60,110 L60,140 A20,20 0 0,0 80,160 L90,160 A10,10 0 0,0 100,150 L100,120 A10,10 0 0,0 90,110 L60,110 M180,110 L180,140 A20,20 0 0,1 160,160 L150,160 A10,10 0 0,1 140,150 L140,120 A10,10 0 0,1 150,110 L180,110" fill="none" stroke="#4f46e5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="120" y="222" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#4f46e5" text-anchor="middle" letter-spacing="0.5">HEADPHONES</text>
+</svg>

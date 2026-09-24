@@ -1,0 +1,147 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="ShopNest.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - ShopNest Online Shopping</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
+    
+    <!-- Custom Theme Stylesheet -->
+    <link href="~/Content/css/style.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="mainForm" runat="server">
+        <!-- ================= NAVBAR ================= -->
+        <nav class="navbar navbar-expand-lg shopnest-navbar">
+            <div class="container">
+                <!-- Brand / Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="Home.aspx">
+                    <img src="Images/logo.svg" alt="ShopNest Logo" />
+                </a>
+
+                <!-- Mobile Hamburger Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#shopnestNav" aria-controls="shopnestNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="shopnestNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item">
+                            <a class="nav-link <%= GetActiveClass("Home.aspx") %>" href="Home.aspx">
+                                <i class="bi bi-house-door me-1"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <%= GetActiveClass("Products.aspx") %>" href="Products.aspx">
+                                <i class="bi bi-grid me-1"></i> Products
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <%= GetActiveClass("Categories.aspx") %>" href="Categories.aspx">
+                                <i class="bi bi-tags me-1"></i> Categories
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <%= GetActiveClass("Contact.aspx") %>" href="Contact.aspx">
+                                <i class="bi bi-envelope me-1"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Cart Button with Live Badge -->
+                    <div class="d-flex align-items-center">
+                        <a href="Cart.aspx" class="cart-nav-btn text-decoration-none d-inline-flex align-items-center">
+                            <i class="bi bi-cart3 fs-5 me-1"></i>
+                            <span>Cart</span>
+                            <asp:Label ID="lblCartCount" runat="server" CssClass="cart-badge" Text="0"></asp:Label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ================= MAIN BODY CONTENT ================= -->
+        <main class="flex-grow-1 py-4">
+            <div class="container">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </main>
+
+        <!-- ================= FOOTER ================= -->
+        <footer class="shopnest-footer">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="mb-3">
+                            <img src="Images/logo.svg" alt="ShopNest" style="filter: brightness(0) invert(1); height: 38px;" />
+                        </div>
+                        <p class="small text-secondary">
+                            ShopNest is a modern, lightweight e-commerce platform developed using ASP.NET Web Forms and C#. Designed for seamless shopping, intuitive cart management, and clean user experience.
+                        </p>
+                        <p class="small text-secondary mb-0">
+                            <i class="bi bi-mortarboard-fill text-warning me-1"></i> College Mini Project Edition
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-6">
+                        <h6 class="footer-title">Quick Links</h6>
+                        <ul class="list-unstyled small">
+                            <li class="mb-2"><a href="Home.aspx"><i class="bi bi-chevron-right me-1"></i> Home</a></li>
+                            <li class="mb-2"><a href="Products.aspx"><i class="bi bi-chevron-right me-1"></i> Products</a></li>
+                            <li class="mb-2"><a href="Categories.aspx"><i class="bi bi-chevron-right me-1"></i> Categories</a></li>
+                            <li class="mb-2"><a href="Cart.aspx"><i class="bi bi-chevron-right me-1"></i> Shopping Cart</a></li>
+                            <li class="mb-2"><a href="Contact.aspx"><i class="bi bi-chevron-right me-1"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-6">
+                        <h6 class="footer-title">Categories</h6>
+                        <ul class="list-unstyled small">
+                            <li class="mb-2"><a href="Categories.aspx?cat=Electronics"><i class="bi bi-laptop me-1"></i> Electronics</a></li>
+                            <li class="mb-2"><a href="Categories.aspx?cat=Clothing"><i class="bi bi-bag me-1"></i> Clothing</a></li>
+                            <li class="mb-2"><a href="Categories.aspx?cat=Books"><i class="bi bi-book me-1"></i> Books</a></li>
+                            <li class="mb-2"><a href="Categories.aspx?cat=Accessories"><i class="bi bi-sunglasses me-1"></i> Accessories</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <h6 class="footer-title">Store Information</h6>
+                        <ul class="list-unstyled small text-secondary">
+                            <li class="mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i> ShopNest Online</li>
+                            <li class="mb-2"><i class="bi bi-telephone-fill text-primary me-2"></i> +91 1234567890</li>
+                            <li class="mb-2"><i class="bi bi-envelope-fill text-primary me-2"></i> support@shopnest.example.com</li>
+                            <li class="mb-2"><i class="bi bi-clock-fill text-primary me-2"></i> Mon - Sat: 9:00 AM - 8:00 PM</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="border-secondary my-4" />
+
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start small text-secondary">
+                        &copy; <%: DateTime.Now.Year %> <strong>ShopNest</strong>. All rights reserved. ASP.NET Web Forms Mini Project.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end small text-secondary mt-2 mt-md-0">
+                        Built with <i class="bi bi-heart-fill text-danger"></i> using C#, HTML5, CSS3 & Bootstrap 5
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+
+    <!-- Bootstrap 5 JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

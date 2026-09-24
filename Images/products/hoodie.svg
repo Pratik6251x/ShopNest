@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="16" fill="#fef2f2" />
+  <circle cx="120" cy="120" r="75" fill="#ffffff" opacity="0.8" />
+  <path d="M85,50 L105,75 A20,20 0 0,0 135,75 L155,50 L200,80 L180,115 L160,105 L160,195 L80,195 L80,105 L60,115 L40,80 Z M95,140 L145,140 L145,175 L95,175 Z" fill="none" stroke="#dc2626" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="120" y="222" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#dc2626" text-anchor="middle" letter-spacing="0.5">HOODIE</text>
+</svg>

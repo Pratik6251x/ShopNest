@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="16" fill="#faf5ff" />
+  <circle cx="120" cy="120" r="75" fill="#ffffff" opacity="0.8" />
+  <path d="M85,50 L155,50 A20,20 0 0,1 175,70 L175,170 A20,20 0 0,1 155,190 L85,190 A20,20 0 0,1 65,170 L65,70 A20,20 0 0,1 85,50 Z M120,90 A20,20 0 1,0 120.1,90 M120,145 A32,32 0 1,0 120.1,145" fill="none" stroke="#9333ea" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="120" y="222" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#9333ea" text-anchor="middle" letter-spacing="0.5">SPEAKER</text>
+</svg>

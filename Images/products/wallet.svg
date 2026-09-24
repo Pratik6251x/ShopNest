@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="16" fill="#fdf4ff" />
+  <circle cx="120" cy="120" r="75" fill="#ffffff" opacity="0.8" />
+  <path d="M60,80 L180,80 A15,15 0 0,1 195,95 L195,160 A15,15 0 0,1 180,175 L60,175 A15,15 0 0,1 45,160 L45,95 A15,15 0 0,1 60,80 Z M150,110 L195,110 L195,145 L150,145 A10,10 0 0,1 150,110 Z M160,127 A4,4 0 1,0 160.1,127" fill="none" stroke="#c026d3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="120" y="222" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#c026d3" text-anchor="middle" letter-spacing="0.5">WALLET</text>
+</svg>

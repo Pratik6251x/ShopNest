@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="16" fill="#fffbeb" />
+  <circle cx="120" cy="120" r="75" fill="#ffffff" opacity="0.8" />
+  <path d="M50,105 L190,105 M55,105 L70,140 A20,20 0 0,0 105,140 L110,105 M130,105 L135,140 A20,20 0 0,0 170,140 L185,105 M55,105 L45,85 M185,105 L195,85" fill="none" stroke="#d97706" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="120" y="222" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#d97706" text-anchor="middle" letter-spacing="0.5">SUNGLASSES</text>
+</svg>

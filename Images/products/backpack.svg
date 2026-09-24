@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="16" fill="#fff7ed" />
+  <circle cx="120" cy="120" r="75" fill="#ffffff" opacity="0.8" />
+  <path d="M85,50 A35,35 0 0,1 155,50 L170,185 L70,185 Z M100,35 A20,20 0 0,1 140,35 M85,125 L155,125 L150,170 L90,170 Z" fill="none" stroke="#ea580c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="120" y="222" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#ea580c" text-anchor="middle" letter-spacing="0.5">BACKPACK</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" width="320" height="70">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <!-- Shopping Bag Icon -->
+  <rect x="8" y="14" width="46" height="46" rx="12" fill="url(#logoGrad)" />
+  <path d="M22 24 C22 17, 40 17, 40 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  <path d="M25 33 L31 39 L41 29" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Text -->
+  <text x="66" y="44" font-family="'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#1e293b">Shop<tspan fill="#4f46e5">Nest</tspan></text>
+  <text x="68" y="58" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#64748b" letter-spacing="1.5">ONLINE STORE</text>
+</svg>

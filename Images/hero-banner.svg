@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0e7ff" />
+      <stop offset="100%" stop-color="#c7d2fe" />
+    </linearGradient>
+    <linearGradient id="cartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#4338ca" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <rect width="600" height="450" rx="24" fill="url(#bgGrad)" />
+
+  <!-- Floating abstract decorative circles -->
+  <circle cx="100" cy="90" r="45" fill="#818cf8" opacity="0.3" />
+  <circle cx="510" cy="380" r="60" fill="#a5b4fc" opacity="0.4" />
+  <circle cx="520" cy="110" r="30" fill="#6366f1" opacity="0.25" />
+
+  <!-- Shopping Cart Illustration in 3D-esque Isometric styling -->
+  <g transform="translate(140, 70)" filter="url(#shadow)">
+    <!-- Cart Body -->
+    <rect x="50" y="70" width="220" height="150" rx="20" fill="url(#cartGrad)" />
+    
+    <!-- Cart Grid Pattern -->
+    <line x1="90" y1="85" x2="90" y2="205" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round" />
+    <line x1="130" y1="85" x2="130" y2="205" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round" />
+    <line x1="170" y1="85" x2="170" y2="205" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round" />
+    <line x1="210" y1="85" x2="210" y2="205" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round" />
+    <line x1="65" y1="125" x2="255" y2="125" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round" />
+    <line x1="65" y1="165" x2="255" y2="165" stroke="#a5b4fc" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Cart Handle -->
+    <path d="M48 95 L15 95 L0 45" fill="none" stroke="#312e81" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Cart Base & Wheels -->
+    <path d="M50 220 L230 220" stroke="#312e81" stroke-width="8" stroke-linecap="round" />
+    <circle cx="95" cy="245" r="22" fill="#1e1b4b" />
+    <circle cx="95" cy="245" r="9" fill="#e0e7ff" />
+    <circle cx="210" cy="245" r="22" fill="#1e1b4b" />
+    <circle cx="210" cy="245" r="9" fill="#e0e7ff" />
+
+    <!-- Floating Gift Box & Items -->
+    <g transform="translate(100, 10)">
+      <rect x="0" y="0" width="70" height="70" rx="12" fill="#f43f5e" />
+      <rect x="30" y="0" width="10" height="70" fill="#fecdd3" />
+      <rect x="0" y="30" width="70" height="10" fill="#fecdd3" />
+    </g>
+
+    <!-- Star Badges -->
+    <g transform="translate(195, -15)">
+      <polygon points="25,0 32,15 49,18 37,30 40,47 25,39 9,47 13,30 1,18 17,15" fill="#fbbf24" />
+    </g>
+  </g>
+</svg>

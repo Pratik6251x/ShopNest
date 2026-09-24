@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="16" fill="#f8fafc" />
+  <circle cx="120" cy="120" r="75" fill="#ffffff" opacity="0.8" />
+  <path d="M80,50 L120,80 L160,50 L195,75 L175,115 L160,105 L160,195 L80,195 L80,105 L65,115 L45,75 Z M120,80 L120,195" fill="none" stroke="#475569" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="120" y="222" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#475569" text-anchor="middle" letter-spacing="0.5">JACKET</text>
+</svg>

@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect width="240" height="240" rx="16" fill="#fefce8" />
+  <circle cx="120" cy="120" r="75" fill="#ffffff" opacity="0.8" />
+  <path d="M65,55 L160,55 A15,15 0 0,1 175,70 L175,185 L80,185 A15,15 0 0,1 65,170 Z M65,170 L175,170 M90,95 L150,95 M90,120 L135,120 M90,145 L145,145" fill="none" stroke="#ca8a04" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="120" y="222" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#ca8a04" text-anchor="middle" letter-spacing="0.5">PYTHON BOOK</text>
+</svg>
